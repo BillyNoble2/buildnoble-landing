@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const FooterContainer = styled.footer`
   background-color: #e0e0e0;
@@ -28,6 +28,9 @@ const Footer = () => {
         </a>
         <a href="YOUR_LINKEDIN_LINK" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
+        </a>
+        <a href="YOUR_INSTA_LINK" target = "_blank" rel="noopener noreferrer">
+            <FaInstagram />
         </a>
       </SocialLinks>
     </FooterContainer>

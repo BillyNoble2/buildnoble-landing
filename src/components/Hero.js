@@ -37,7 +37,6 @@ const Hero = () => {
     <HeroContainer>
       <HeroTitle>Building Innovative Software Solutions</HeroTitle>
       <HeroSubtitle>Crafting digital experiences that drive your business forward.</HeroSubtitle>
-      <HeroButton href="#projects">View Our Projects</HeroButton>
     </HeroContainer>
   );
 };
